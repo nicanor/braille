@@ -1,14 +1,12 @@
-# ChordTransposer
+# Braille
 
-ChordTransposer es una gema creada para el sitio web AcordesTotales.
-El objetivo de ChordTransposer es crear una api sencilla para modificar la tonalidad y notación de los acordes.
-De esta forma uno podría a partir del string 'La#m', aumentar un tono la nota que representa: 'Sol#m', o pasar a notación americana: 'A#m'.
+Braille es una gema creada para realizar pruebas de traducción Braille básicas, para aprender un poco más sobre lectura Braille.
 
-## Installation
+## Instalación
 
 Add this line to your application's Gemfile:
 
-    gem 'chord_transposer'
+    gem 'braille'
 
 And then execute:
 
@@ -16,16 +14,31 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install chord_transposer
+    $ gem install braille
+
+## Stuff
+
+ ⠁ a, 1    ⠞ t   ⠷ á
+ ⠃ b, 2    ⠥ u   ⠮ é
+ ⠉ c, 3    ⠧ v   ⠌ í
+ ⠙ d, 4    ⠺ w   ⠬ ó
+ ⠑ e, 5    ⠭ x   ⠾ ú
+ ⠋ f, 6    ⠽ y   ⠳ ü
+ ⠛ g, 7    ⠵ z
+ ⠓ h, 8    ⠨ Signo de mayúsculas
+ ⠊ i, 9    ⠼ Signo de número
+ ⠚ j, 0    ⠄ Punto (.) (punto 3)
+ ⠅ k   ⠂ Coma (,) (punto 2)
+ ⠇ l
+ ⠢ Signos de interrogación (¿?)
+ ⠍ m   ⠆ Punto y coma (;)
+ ⠝ n   ⠖ Signos de exclamación (¡ !)
+ ⠻ ñ   ⠒ Dos puntos (:)
+ ⠕ o   ⠦ Comillas (de cualquier tipo)
+ ⠏ p   ⠣ Abrir paréntesis "("
+ ⠟ q   ⠜ Cerrar paréntesis ")"
+ ⠗ r   ⠤ Guion (-)
+ ⠎ s   ⠀ Espacio (ningún punto)
 
 ## Usage
-
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it ( https://github.com/[my-github-username]/chord_transposer/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+    $ irb -r ./lib//braille/translator.rb
