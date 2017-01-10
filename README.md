@@ -16,8 +16,9 @@ Or install it yourself as:
 
     $ gem install braille
 
-## Stuff
+## Tabla
 
+```
  ⠁ a, 1    ⠞ t   ⠷ á
  ⠃ b, 2    ⠥ u   ⠮ é
  ⠉ c, 3    ⠧ v   ⠌ í
@@ -39,6 +40,7 @@ Or install it yourself as:
  ⠟ q   ⠜ Cerrar paréntesis ")"
  ⠗ r   ⠤ Guion (-)
  ⠎ s   ⠀ Espacio (ningún punto)
+```
 
 ## Usage
     $ irb -r ./lib//braille/translator.rb
